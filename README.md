@@ -14,7 +14,7 @@ After reading *Invisible Women*, I became interested in how data collection prac
 
 ## Dataset
 - **Source**: American Community Survey (2018) via fairlearn library
-- **Size**: [X observations, Y features]
+- **Size**: [1664500 observations, 11 features]
 - **Key Variables**: Sex, Race, Age, Education, Employment Status, Income
 - **Geographic Coverage**: []
 
@@ -41,7 +41,9 @@ Brief description of your approach:
 
 ## Project Structure
 ```
+gender_data_bias/
 ├── README.md
+├── requirements.txt
 ├── data_exploration.ipynb    # Initial data exploration
 ├── bias_analysis.ipynb        # Main analysis
 ├── visualizations/            # Generated plots
@@ -70,3 +72,5 @@ Harshatha Prasanna
 https://github.com/harshatha-prasanna
 
 ## Acknowledgments
+
+
