@@ -25,24 +25,24 @@ This project demonstrates that good data makes problems visible, but better data
 ## Analysis Structure
 ```mermaid
 graph TD
-    A[1. Introduction & MotivationIs gender data enough?] --> B[2. Data Loading & Preparation]
-    B --> C[3. Overall Gender Income GapWomen earn 29% less - clearly visible]
-    C --> D[4. Testing Explanations]
-    D --> E[4.1 Education: Gap at every level]
-    D --> F[4.2 Age: Gap across all ages]
-    D --> G[4.3 Household RolesFemale household heads still earn less]
-    G --> H[4.3.1 Same Hours, Same OccupationFemale managers: $60k, Male: $85k]
-    D --> I[4.4 Marriage PatternMarried women: 63%, Divorced: 85%]
-    H --> J[4.5 The Problem: What's MissingNo caregiving, career, position data]
+    A[1. Introduction & Motivation: Is gendered data enough?] --> B[2. Data Loading & Preparation]
+    B --> C[3. Overall Gender Income Gap: women earn 29% less]
+    C --> D[4. Testing Possible Explanations]
+    D --> E[4.1 Education- Gap at Every Level]
+    D --> F[4.2 Age- Gap Across all Ages]
+    D --> G[4.3 Household Roles- Female household heads still earn less]
+    G --> H[4.3.1 Same Hours, Same Occupation- Female managers: $60k, Male: $85k]
+    D --> I[4.4 Marriage Pattern- Married women: 63%, Divorced: 85%]
+    H --> J[4.5 The Problem- Missing Mechanism Variables]
     I --> J
-    J --> K[4.6 Policy Can't ActVisibility without mechanisms = stuck]
-    K --> L[5. The Core InsightData infrastructure prioritizes outcomes over mechanisms]
+    J --> K[4.6 Issues without Clear Actionable next Steps = Stuck]
+    K --> L[5. The Core Insight- Data infrastructure Prioritizes Outcomes over Mechanisms]
     L --> M[6. What Better Data Would Look Like]
-    M --> N[7. ConclusionVisibility achieved, actionability needed]
+    M --> N[7. Conclusion- Visibility Achieved, Actionability Needed]
     
-    style L fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px
-    style C fill:#4dabf7,stroke:#1971c2
-    style H fill:#a5d6a7,stroke:#66bb6a
+  style L fill:#b00020,stroke:#8b0000,stroke-width:3px,color:#ffffff
+  style C fill:#336699,stroke:#1a1f3d,color:#ffffff
+  style J fill:#228b7e,stroke:#1c3d3a,color:#ffffff
 ```
 ## Key Findings
 
