@@ -25,14 +25,14 @@ This project demonstrates that good data makes problems visible, but better data
 ## Analysis Structure
 ```mermaid
 graph TD
-    A[1. Introduction & Motivation: Is gendered data enough?] --> B[2. Data Loading & Preparation]
-    B --> C[3. Overall Gender Income Gap: women earn 29% less]
+    A[1. Introduction & Motivation: Is Gendered Data Enough?] --> B[2. Data Loading & Preparation]
+    B --> C[3. Overall Gender Income Gap: Women Earn 29% Less]
     C --> D[4. Testing Possible Explanations]
     D --> E[4.1 Education- Gap at Every Level]
     D --> F[4.2 Age- Gap Across all Ages]
-    D --> G[4.3 Household Roles- Female household heads still earn less]
-    G --> H[4.3.1 Same Hours, Same Occupation- Female managers: $60k, Male: $85k]
-    D --> I[4.4 Marriage Pattern- Married women: 63%, Divorced: 85%]
+    D --> G[4.3 Household Roles- Female Household Heads still earn Less]
+    G --> H[4.3.1 Same Hours, Same Occupation- Female Managers: $60k, Male: $85k]
+    D --> I[4.4 Marriage Pattern- Married women: 63% Less, Divorced: 85% Less]
     H --> J[4.5 The Problem- Missing Mechanism Variables]
     I --> J
     J --> K[4.6 Issues without Clear Actionable next Steps = Stuck]
