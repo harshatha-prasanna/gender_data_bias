@@ -25,24 +25,24 @@ This project demonstrates that good data makes problems visible, but better data
 ## Analysis Structure
 ```mermaid
 graph TD
-    A[1. Introduction & Motivation] --> B[2. Data Loading & Preparation]
-    B --> C[3. Overall Gender Income Gap<br/>Women earn 29% less]
-    C --> D[4. Gap Persists Across Contexts]
-    D --> E[4.1 By Education Level]
-    D --> F[4.2 By Age]
-    D --> G[4.3 Household Structure RELP]
-    G --> H[4.3.1 Deep Dive: Hours & Occupations<br/>Same hours, different pay]
-    D --> I[4.4 Marriage Penalty<br/>Married women earn only 63%]
-    H --> J[4.5 What We CANNOT See<br/>Missing mechanism variables]
+    A[1. Introduction & MotivationIs gender data enough?] --> B[2. Data Loading & Preparation]
+    B --> C[3. Overall Gender Income GapWomen earn 29% less - clearly visible]
+    C --> D[4. Testing Explanations]
+    D --> E[4.1 Education: Gap at every level]
+    D --> F[4.2 Age: Gap across all ages]
+    D --> G[4.3 Household RolesFemale household heads still earn less]
+    G --> H[4.3.1 Same Hours, Same OccupationFemale managers: $60k, Male: $85k]
+    D --> I[4.4 Marriage PatternMarried women: 63%, Divorced: 85%]
+    H --> J[4.5 The Problem: What's MissingNo caregiving, career, position data]
     I --> J
-    J --> K[4.6 Why This Matters for Policy<br/>Visibility ≠ Actionability]
-    K --> L[5. The Data Infrastructure Problem<br/>MAIN THESIS]
-    L --> M[6. Towards Actionable Data]
-    M --> N[7. Conclusion]
+    J --> K[4.6 Policy Can't ActVisibility without mechanisms = stuck]
+    K --> L[5. The Core InsightData infrastructure prioritizes outcomes over mechanisms]
+    L --> M[6. What Better Data Would Look Like]
+    M --> N[7. ConclusionVisibility achieved, actionability needed]
     
     style L fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px
     style C fill:#4dabf7,stroke:#1971c2
-    style J fill:#ffd43b,stroke:#f08c00
+    style H fill:#a5d6a7,stroke:#66bb6a
 ```
 ## Key Findings
 
